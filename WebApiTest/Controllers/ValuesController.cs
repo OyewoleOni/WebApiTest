@@ -13,7 +13,9 @@ namespace WebApiTest.Controllers
         // GET api/values
         public IEnumerable<string> Get()
         {
+            var s = "Testing";
             return new string[] { "value1", "value2" };
+
         }
 
         // GET api/values/5
