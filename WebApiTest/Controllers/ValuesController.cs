@@ -15,7 +15,6 @@ namespace WebApiTest.Controllers
         {
             var s = "Testing";
             return new string[] { "value1", "value2" };
-
         }
 
         // GET api/values/5
